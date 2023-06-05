@@ -1,0 +1,227 @@
+.container-1 {
+  height: 100px;
+  width: 100%;
+  background-color: ghostwhite;
+}
+img {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  left: 10px;
+  top: 20px;
+}
+.size {
+  position: relative;
+  left: 80px;
+  bottom: 40px;
+}
+ul {
+  float: right;
+  margin-right: 20px;
+}
+li {
+  display: inline-block;
+  position: relative;
+  bottom: 90px;
+  right: 50px;
+  margin: 0px 20px;
+}
+input {
+  position: relative;
+  padding: 10px 220px;
+  bottom: 85px;
+  left: 250px;
+}
+.ul {
+  float: left;
+  margin-right: 25px;
+}
+.li {
+  display: inline-block;
+  position: relative;
+  bottom: 20px;
+  right: 10px;
+  margin: 0px 15px;
+}
+.li-1 {
+  display: inline-block;
+  position: relative;
+  bottom: 70px;
+  right: 5px;
+  margin: 0px 15px;
+}
+.header {
+  position: relative;
+  left: 630px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  top: 30px;
+}
+.paragraph {
+  height: 10px;
+  width: 1000px;
+  position: relative;
+  left: 200px;
+  line-height: 25px;
+  top: 30px;
+}
+button {
+  background-color: white;
+  position: relative;
+  padding: 10px 25px;
+}
+.changable {
+  position: relative;
+  left: 520px;
+  top: 120px;
+}
+.container-2 {
+  height: 420px;
+  width: 100%;
+  border: ridge;
+  position: relative;
+  top: 200px;
+}
+.container-3 {
+  height: 420px;
+  width: 100%;
+  border: ridge;
+  position: relative;
+  top: 300px;
+}
+.container-4 {
+  height: 420px;
+  width: 100%;
+  border: ridge;
+  position: relative;
+  top: 400px;
+}
+.container-5 {
+  height: 420px;
+  width: 100%;
+  border: ridge;
+  position: relative;
+  top: 500px;
+}
+.image-1 {
+  height: 300px;
+  width: 300px;
+  margin: 0 25px;
+}
+.image-2 {
+  height: 300px;
+  width: 300px;
+  margin: 0 25px;
+}
+.image-3 {
+  height: 300px;
+  width: 300px;
+  margin: 0 25px;
+}
+.image-4 {
+  height: 300px;
+  width: 300px;
+  margin: 0 25px;
+}
+.container-2-button {
+  position: relative;
+  top: 60px;
+  left: 600px;
+  border: ridge;
+}
+.container-3-button {
+  position: relative;
+  top: 60px;
+  left: 600px;
+  border: ridge;
+}
+.container-4-button {
+  position: relative;
+  top: 60px;
+  left: 600px;
+  border: ridge;
+}
+.container-5-button {
+  position: relative;
+  top: 60px;
+  left: 600px;
+  border: ridge;
+}
+.container-6 {
+  height: 420px;
+  width: 100%;
+  position: relative;
+  top: 550px;
+}
+h2 {
+  position: relative;
+  top: 100px;
+  left: 530px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+  float: right;
+  margin-right: 20px;
+}
+.footer-li {
+  display: inline-block;
+  position: relative;
+  top: 350px;
+  right: 170px;
+  margin: 0px 20px;
+}
+
+.container-8 {
+  height: 420px;
+  width: 100%;
+  position: relative;
+  top: 550px;
+  border: ridge;
+  background-color: black;
+}
+.footer-ul {
+  float: right;
+  /* margin-right: 300px; */
+}
+.footer-li-1 {
+  color: white;
+  position: relative;
+  right: 50px;
+  top: 5px;
+  margin: 15px 45px;
+}
+.merge {
+  margin: 8px 0px 0px;
+  color: darkgrey;
+}
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .container-1,
+  .size,
+  .ul,
+  .li,
+  .li-1,
+  .header,
+  .paragraph,
+  .changable,
+  .container-2,
+  .container-3,
+  .container-4,
+  .container-5,
+  .container-6,
+  .image-1,
+  .image-2,
+  .image-3,
+  .image-4,
+  .container-2-button,
+  .container-3-button,
+  .container-4-button,
+  .container-2-button,
+  .footer,
+  .footer-li,
+  .container-8,
+  .footer-ul,
+  .footer-li-1,
+  .merge {
+    width: 100%;
+  }
+}
