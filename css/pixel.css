@@ -194,7 +194,7 @@ h2 {
   color: darkgrey;
 }
 @media only screen and (max-width: 620px) {
-  /* For mobile phones: */
+  /* For other device: */
   .container-1,
   .size,
   .ul,
